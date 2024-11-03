@@ -1,0 +1,44 @@
+.navLink {
+  margin-left: 18.4px;
+  display: flex;
+  align-items: start;
+  text-decoration: none;
+  color: var(--color-greyText);
+  height: 47px;
+}
+
+.navLink:first-child {
+  margin-left: 0px;
+}
+
+.navLinkText {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap
+}
+
+.active.navLink {
+  color: var(--color-blackTele2);
+  border-bottom: 2px solid var(--color-blackTele2);
+}
+
+@media screen and (max-width: 1024px) {
+  .navLink {
+    margin: 0px;
+    border-bottom: 1px solid #ededed;
+    height: 46px;
+  }
+
+  .navLinkText {
+    letter-spacing: 0.012em;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .active.navLink {
+    border-bottom: 1px solid #ededed;
+    color: var(--color-greyText);
+  }
+}

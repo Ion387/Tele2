@@ -1,0 +1,55 @@
+.app {
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+}
+
+.navBar {
+  width: 100%;
+  height: 47px;
+}
+
+.content {
+  width: 100%;
+  height: calc(100vh - 87px);
+}
+
+.content >div{
+  height: 100%;
+}
+.contentDesctop{
+
+}
+.contentMobile{
+  display: none;
+  position: absolute;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 45px;
+  }
+  .navBar {
+    height: 0px;
+  }
+  .contentDesctop{
+    display: none;
+    position: absolute;
+  }
+  .contentMobile{
+    display: block;
+    position:static;
+  }
+
+
+  .content {
+    width: 100%;
+    height: calc(100% - 50px);
+  }
+}
