@@ -6,7 +6,8 @@ import { useLocation } from "react-router-dom";
 const NavBar = (props) => {
 
   const navPanel = props.linksData.map((i) => (
-    <NavLinkCustom link={i.link} linkName={i.linkName} />
+    <div className={s.class}></div>
+/*     <NavLinkCustom link={i.link} linkName={i.linkName} /> */
   ));
   const onClickHandler=()=>{
     props.toggleMobileNavPanel()
