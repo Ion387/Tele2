@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tele2/static/css/main.9d802fa2.css",
+    "main.js": "/tele2/static/js/main.a6a1a408.js",
+    "static/js/453.ed3810f9.chunk.js": "/tele2/static/js/453.ed3810f9.chunk.js",
+    "static/media/Tele2TextSansWebSHORTRegular.woff2": "/tele2/static/media/Tele2TextSansWebSHORTRegular.1904e1bb9746a9c1226a.woff2",
+    "index.html": "/tele2/index.html",
+    "main.9d802fa2.css.map": "/tele2/static/css/main.9d802fa2.css.map",
+    "main.a6a1a408.js.map": "/tele2/static/js/main.a6a1a408.js.map",
+    "453.ed3810f9.chunk.js.map": "/tele2/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d802fa2.css",
+    "static/js/main.a6a1a408.js"
+  ]
+}
