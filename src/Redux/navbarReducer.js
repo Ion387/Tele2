@@ -5,12 +5,12 @@ export const toggleMobileNavPanel = () => {return {
 const initialState ={
 isMobilePanelShown:false,
 linksData:[
-  { link: "/", linkName: "Преимущества Tele2" },
-  { link: "/tariffs/", linkName: "Тарифы" },
-  { link: "/actions/", linkName: "Акции и спецпредложения" },
-  { link: "/promo/", linkName: "Промотариф Tele2" },
-  { link: "/eSIM/", linkName: "Технология eSIM" },
-  { link: "/newAbonent/", linkName: "Подключение нового абонента" },
+  { linkId:"1link",link: "/", linkName: "Преимущества Tele2" },
+  { linkId:"2link",link: "/tariffs/", linkName: "Тарифы" },
+  { linkId:"3link",link: "/actions/", linkName: "Акции и спецпредложения" },
+  { linkId:"4link",link: "/promo/", linkName: "Промотариф Tele2" },
+  { linkId:"5link",link: "/eSIM/", linkName: "Технология eSIM" },
+  { linkId:"6link",link: "/newAbonent/", linkName: "Подключение нового абонента" },
 ]
 }
 

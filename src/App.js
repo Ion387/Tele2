@@ -1,4 +1,4 @@
-/* import { BrowserRouter } from "react-router-dom"; */
+ import { BrowserRouter } from "react-router-dom"; 
 import NavBar from "./Components/NavBar/NavBar";
 import Header from "./Components/Header/Header";
 import s from "./App.module.css";
@@ -8,7 +8,7 @@ import SPARouter from "./SPArouter/SPArouter";
 
 const App = (props) => {
   return (
-/*    <BrowserRouter basename={process.env.PUBLIC_URL}>  */
+  <BrowserRouter basename={process.env.PUBLIC_URL}> 
       <div className={s.app}>
         <header className={s.header}>
           <Header
@@ -36,7 +36,7 @@ const App = (props) => {
           )}
         </section>
       </div>
- /*  </BrowserRouter> */
+   </BrowserRouter> 
   );
 };
 

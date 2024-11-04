@@ -8,15 +8,14 @@ import { Route, Routes } from "react-router-dom";
 
 const SPArouter = () => {
   return (
-    <div>контент</div>
-    /*     <Routes>
+   <Routes>
       <Route path="/" element={<Main />} />
       <Route path="/tariffs" element={<Tariffs />} />
       <Route path="/actions" element={<Actions />} />
       <Route path="/promo" element={<Promo />} />
       <Route path="/eSIM" element={<ESIM />} />
       <Route path="/newAbonent" element={<NewAbonent />} />
-    </Routes>  */
+    </Routes>  
   );
 };
 
